@@ -17,6 +17,12 @@ h1 {
   font-size: 6rem;
 }
 
+a {
+  color: #781e27;
+  font-family: 'Quicksand', sans-serif;
+  padding: 5px;
+  font-size: 2rem;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
