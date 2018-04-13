@@ -21,25 +21,34 @@
     <link href="../css/carousel.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
   </head>
-  <body>
 
-    <header>
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-toggleable-md bg-light">
-      <a href="#" class="navbar-left"><img src="./assets/hat.png"></a>
-<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+<body>
+
+      <body>
+
+
+    <nav class="navbar navbar-toggleable-md bg-light"> <!-- Create the navbar -->
+      <div class="container">
+        <div class="navbar-header"> <!-- Create the navbar -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-menu-hamburger"></span><span class="mobile-menu"> Menu</span>
+          </button> <!-- Hamburger button for smaller devices -->
+          <a href="index.html" class="navbar-left navbar-brand"><img src="./assets/hat.png"></a> <!-- Brand -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbar" class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link active" href="#index.html">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farmer's Markets</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="DCFM.html">Dane County Farmer's Market</a>
-              <a class="dropdown-item" href="#">Westside Community Market</a>
+              <a class="dropdown-item" href="WCM.html">Westside Community Market</a>
             </div>
           </li>
             <li class="nav-item">
@@ -49,11 +58,12 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-        </div>
-      </nav>
-    </header>
+        </div> <!--/.navbar-collapse -->
+      </div> <!--/.container -->
+    </nav> <!--/navigation bar -->
 
 
+<!-- pics 960 x 720 -->
 
     <main role="main">
 

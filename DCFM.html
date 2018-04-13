@@ -32,6 +32,7 @@
   display: block;
   width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .overlay {
@@ -70,13 +71,23 @@ font-size: 8pt;
 
 
     <header>
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-toggleable-md bg-light">
-      <a href="index.html" class="navbar-left"><img src="./assets/hat.png"></a>
-<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+    </header>
+    <body>
+
+
+    <nav class="navbar navbar-toggleable-md bg-light"> <!-- Create the navbar -->
+      <div class="container">
+        <div class="navbar-header"> <!-- Create the navbar -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-menu-hamburger"></span><span class="mobile-menu"> Menu</span>
+          </button> <!-- Hamburger button for smaller devices -->
+         <a href="index.html" class="navbar-left navbar-brand"><img src="./assets/hat.png"></a> <!-- Brand -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbar" class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link active" href="index.html">Home</a>
@@ -85,7 +96,7 @@ font-size: 8pt;
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farmer's Markets</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="DCFM.html">Dane County Farmer's Market</a>
-              <a class="dropdown-item" href="#">Westside Community Market</a>
+              <a class="dropdown-item" href="WCM.html">Westside Community Market</a>
             </div>
           </li>
             <li class="nav-item">
@@ -95,11 +106,19 @@ font-size: 8pt;
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-        </div>
-      </nav>
-    </header>
+        </div> <!--/.navbar-collapse -->
+      </div> <!--/.container -->
+    </nav> <!--/navigation bar -->
+
 
 <!-- pics 960 x 720 -->
+
+
+<container>
+  
+<img src="../assets/squaremap.png" alt="DCFM Map" style="width:300px;height:300px;" align="center" class="image map">
+
+</container>
 
 <!-- START HEALTHY SCHMEALTHY -->
 <div class = "container">
@@ -446,7 +465,7 @@ font-size: 8pt;
 
 
     <main role="main">
-<body>
+
 
 <!-- pics 960 x 720 -->
 
