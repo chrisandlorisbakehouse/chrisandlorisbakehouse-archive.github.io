@@ -3,8 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0%;
+  padding-bottom: 0%;
   color: #781e27;
 }
 
@@ -14,12 +14,12 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 0%;
 
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 40%;
   z-index: 10;
   background-color: none;
 }
@@ -43,7 +43,7 @@ align-content: center;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 36rem;
 }
 
 
