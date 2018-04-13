@@ -14,16 +14,38 @@ p {
 
 h1 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 6rem;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #781e27;
+}
+
+h4 {;
+  color: #781e27;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
 }
 
 a {
-  color: #781e27;
+  color: white;
   font-family: 'Quicksand', sans-serif;
-  padding: 5px;
   font-size: 2rem;
-  margin: 30px;
+  margin: 20px;
 }
+
+.navbar {
+  background-color: #781e27;
+
+}
+
+span {
+  color: white;
+}
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -32,7 +54,8 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 0px;
+  background-color: white;
 }
 .footer {
   position: absolute;

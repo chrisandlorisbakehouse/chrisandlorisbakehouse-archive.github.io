@@ -34,7 +34,7 @@ align-content: center;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 60rem;
+  height: 54rem;
   background-color: #781e27;
 
 }
