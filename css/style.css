@@ -1,4 +1,4 @@
-html {
+/*html {
   height: 100%;
   box-sizing: border-box;
 }
@@ -7,13 +7,13 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
+}*/
 
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 6rem;
-  min-height: 100%;
+  padding-bottom: 0rem;
+/*  min-height: 100%;*/
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
