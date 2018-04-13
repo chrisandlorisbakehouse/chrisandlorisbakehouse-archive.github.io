@@ -43,7 +43,7 @@ align-content: center;
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 150rem;
+  min-width: 140rem;
   height: 32rem;
 
 
@@ -88,7 +88,7 @@ align-content: center;
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .carousel-caption {
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
     font-size: 4rem;
     line-height: 1.4;
     z-index: 20;
