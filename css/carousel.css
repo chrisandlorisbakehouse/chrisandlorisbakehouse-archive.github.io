@@ -25,16 +25,14 @@ body {
 }
 
 .carousel-inner {
-
 margin: auto;
 align-items: center;
 align-content: center;
-
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 54rem;
+  height: 70rem;
   background-color: #781e27;
 
 }

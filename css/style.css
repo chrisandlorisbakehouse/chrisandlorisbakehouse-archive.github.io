@@ -28,7 +28,7 @@ ul {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 h1 {
@@ -48,11 +48,25 @@ h4 {;
   margin: 10px;
 }
 
-a {
+.nav-link {
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-size: 2rem;
   margin: 20px;
+}
+
+a {
+  color: grey;
+}
+.map {
+
+}
+
+
+hr { 
+  width:90%; 
+  height:2px; 
+  background: #fff 
 }
 
 .navbar {
@@ -62,6 +76,16 @@ a {
 
 }
 
+.navbar-brand {
+  padding: 2%;
+}
+
+.dropdown-item {
+  background-color: white;
+  padding: 3px;
+  margin: 0px;
+
+}
 
 .footer {
   position: absolute;
