@@ -21,7 +21,8 @@ body {
 .carousel-caption {
   bottom: 40%;
   z-index: 10;
-  background-color: none;
+  background-color: rgba(0,0,0,0.4) ;
+  color:white;
 }
 
 .carousel-inner {
@@ -84,7 +85,7 @@ align-content: center;
   /* Bump up size of carousel content */
   .carousel-caption {
     margin-bottom: 8rem;
-    font-size: 4rem;
+    font-size: 6rem;
     line-height: 1.4;
     z-index: 20;
   }
