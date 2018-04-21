@@ -58,6 +58,22 @@
   opacity: 1;
 }
 
+.category {
+  background-color: lightgrey;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2%;
+  color: white;
+
+}
+
+.productnames {
+  font-style: italic;
+  font-family: serif;
+
+}
+
 p {
 font-size: 8pt;
 </style>
@@ -69,13 +85,6 @@ font-size: 8pt;
 
   </head>
   <body>
-
-
-    <header>
-
-    </header>
-    <body>
-
 
     <nav class="navbar navbar-market navbar-toggleable-md bg-light"> <!-- Create the navbar -->
       <div class="container">
@@ -116,34 +125,35 @@ font-size: 8pt;
 
 
 
-<div class="block_1"> </div> <hr />
-
 
 <!-- START HEALTHY SCHMEALTHY -->
 <div class = "container">
 
     <h1 align="center">Products</h1>
-  <h2>Healthy Schmealthy</h2>
+
+
+    <div class="block_1"> </div> <hr />
+
+
+  <h2 class="category"  align="center">Healthy Schmealthy</h2>
 <div class="container scone col-md-4">
   <img src="../assets/flowercookies.jpg" alt="Flower Cookies" class="image">
-    <h2>Flower Cookies</h2>
-  <h4>Ingredients: white flour, sugar, butter, margarine, egg, vanilla, and baking soda. </h4>
+    <h3 class="productnames">Flower Cookies</h3>
+  <h6>Ingredients: white flour, sugar, butter, margarine, egg, vanilla, and baking soda. </h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/sconuts.jpg" alt="Sconuts" class="image">
-  <div class="overlay">
-  </div>
-  <h2>Sconuts</h2>
-  <h4>Ingredients: white flour, chocolate chips, butter, brown sugar, egg, water, vanilla, baking powder, almond extract, and salt. </h4>
+  <h3 class="productnames">Sconuts</h3>
+  <h6>Ingredients: white flour, chocolate chips, butter, brown sugar, egg, water, vanilla, baking powder, almond extract, and salt. </h6>
 
 </div>
 
 
 <div class="container scone col-md-4">
   <img src="../assets/cowcookies.jpg" alt="Cow Cookies" class="image">
-    <h2>Cow Cookies</h2>
-  <h4>Ingredients: white flour, sugar, butter, margarine, egg, vanilla, and baking soda. </h4>
+    <h3 class="productnames"><i>Cow Cookies</i></h3>
+  <h6>Ingredients: white flour, sugar, butter, margarine, egg, vanilla, and baking soda. </h6>
 </div>
 </div>
 <!-- END HEALTHY SCHMEALTHY -->
@@ -151,32 +161,46 @@ font-size: 8pt;
 
 <!-- START SLIGHTLY HEALTHY ROW 1 -->
 <div class = "container">
-    <h2>Slightly Healthy</h2>
+    <h2 class="category" align="center">Slightly Healthy</h2>
+
+<!--     <div class="block_1"> </div> <hr />
+ -->
+
 <div class="container scone col-md-4">
   <img src="../assets/espresso.jpg" alt="Espresso Dark Chocolate" class="image">
 
+
   
-  <h2>Espresso Dark Chocolate Scones</h2>
-  <h4>Ingredients: white flour, dark chocolate chunks, butter*, brewed coffee, eggs, vanilla, granulated sugar, baking powder, ground fair trade coffee beans, and salt.
+  <h3 class="productnames">Espresso Dark Chocolate Scones</h3>
+  <h6>Ingredients: white flour, dark chocolate chunks, butter*, brewed coffee, eggs, vanilla, granulated sugar, baking powder, ground fair trade coffee beans, and salt.
   </br>
   Glaze: water, corn syrup, powdered sugar
 </br> 
-*no trans fats </h4>
+*no trans fats </h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/coconut.jpg" alt="Coconut Dark Chocolate" class="image">
-  <h2>Coconut Dark Chocolate Scones</h2>
-  <h4>Ingredients: white flour, dark chocolate chunks, shredded toasted coconut, butter*, water, eggs, coconut extract, granulated sugar, water, baking powder, and salt.
+  <h3 class="productnames">Coconut Dark Chocolate Scones</h3>
+  <h6>Ingredients: white flour, dark chocolate chunks, shredded toasted coconut, butter*, water, eggs, coconut extract, granulated sugar, water, baking powder, and salt.
   </br>
   Glaze: water, corn syrup, powdered sugar
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/vanilla.jpg" alt="Vanilla Almond" class="image">
+
+  <h3 class="productnames">Vanilla Almond Scones</h3>
+  <h6>Ingredients: white flour, water, butter*, eggs, pure vanilla, almond extract, sliced almonds, granulated sugar, baking powder, and salt.
+  </br>
+  Glaze: water, corn syrup, powdered sugar
+</br> 
+*no trans fats
+</h6>
+</div>
 
 
 </div>
@@ -189,19 +213,19 @@ font-size: 8pt;
 <div class="container scone col-md-4">
   <img src="../assets/WhiteChocRasp2.jpg" alt="White Chocolate Raspberry" class="image">
 
-    <h2>White Chocolate Raspberry Scones</h2>
-  <h4>Ingredients: white flour, white chocolate chunks, raspberries, butter*, water, eggs, granulated sugar, water, baking powder, almond extract, and salt.
+    <h3 class="productnames">White Chocolate Raspberry Scones</h3>
+  <h6>Ingredients: white flour, white chocolate chunks, raspberries, butter*, water, eggs, granulated sugar, water, baking powder, almond extract, and salt.
   </br>
   Glaze: water, corn syrup, powdered sugar
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
 <!--   <img src="../assets/pumpkinmuffins.jpg" alt="Pumpkin Muffins" class="image">
   <h2>Pumpkin Cream Cheese Muffins</h2>
-  <h4>Ingredients: sugar, white flour, oil, pumpkin, cream cheese, baking powder, ground cinnamon, baking soda, and salt. </h4> -->
+  <h6>Ingredients: sugar, white flour, oil, pumpkin, cream cheese, baking powder, ground cinnamon, baking soda, and salt. </h6> -->
 </div>
 </div>
 
@@ -210,38 +234,41 @@ font-size: 8pt;
 
 <!-- START SEMI HEALTHY ROW 1 -->
 <div class = "container">
-<h2>Semi Healthy</h2>
+<h2 class="category" align="center">Semi Healthy</h2>
+<div class="block_1"> </div> <hr />
+
+
 <div class="container scone col-md-4">
   <img src="../assets/semi-cinnamon.jpg" alt="Cinnamon" class="image">
   
-  <h2>Cinnamon Oat Scones</h2>
-  <h4>Ingredients: white flour, oats, butter*, water, cinnamon chips, brown sugar, ground cinnamon, baking powder, and salt. </br>
+  <h3 class="productnames">Cinnamon Oat Scones</h3>
+  <h6>Ingredients: white flour, oats, butter*, water, cinnamon chips, brown sugar, ground cinnamon, baking powder, and salt. </br>
   Glaze: Water, corn syrup, powdered sugar
             </br>
-  *no trans fats</h4>
+  *no trans fats</h6>
 </div>
 
 <!-- <div class="container scone col-md-4">
   <img src="../assets/semiheal-applecinn.JPG" alt="Apple Cinnamon" class="image">
   
   <h2>Apple Cinnamon Oat Scones</h2>
-  <h4>*seasonal*</h4>
-  <h4>Ingredients: white flour, oats, apples, butter*, apple cider, brown sugar, ground cinnamon, baking powder, and salt. </br>
+  <h6>*seasonal*</h6>
+  <h6>Ingredients: white flour, oats, apples, butter*, apple cider, brown sugar, ground cinnamon, baking powder, and salt. </br>
   Glaze: Water, corn syrup, powdered sugar
 </br>
-  *no trans fats</h4>
+  *no trans fats</h6>
 </div> -->
 
 <div class="container scone col-md-4">
   <img src="../assets/semiblueberry.jpg" alt="Blueberry" class="image">
   
-  <h2>Blueberry Oat Scones</h2>
-  <h4>Ingredients: white flour, oats, butter*, blueberries, water, brown sugar, baking powder, and salt.
+  <h3 class="productnames">Blueberry Oat Scones</h3>
+  <h6>Ingredients: white flour, oats, butter*, blueberries, water, brown sugar, baking powder, and salt.
   </br>
   Glaze: water, corn syrup, powdered sugar
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 </div>
 
@@ -253,25 +280,25 @@ font-size: 8pt;
 <div class="container scone col-md-4">
   <img src="../assets/semi-cranberry.jpg" alt="Cranberry" class="image">
   
-  <h2>Cranberry Oat Scones</h2>
-  <h4>Ingredients: white flour, cranberries, oats, butter*, water, brown sugar, baking powder, and salt.
+  <h3 class="productnames">Cranberry Oat Scones</h3>
+  <h6>Ingredients: white flour, cranberries, oats, butter*, water, brown sugar, baking powder, and salt.
   </br>
   Glaze: water, corn syrup, powdered sugar
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/BananaChoc.After.jpg" alt="Banana Chocolate" class="image">
   
-  <h2>Banana Chocolate</h2>
-  <h4>Ingredients: white flour, bananas, oats, butter*, dark chocolate chunks, brown sugar, baking powder, and salt.
+  <h3 class="productnames">Banana Chocolate Scones</h3>
+  <h6>Ingredients: white flour, bananas, oats, butter*, dark chocolate chunks, brown sugar, baking powder, and salt.
   </br>
   Glaze: water, corn syrup, powdered sugar
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 
 <!-- <div class="container scone col-md-4">
@@ -279,8 +306,8 @@ font-size: 8pt;
   <div class="overlay">
   
   <h2>Rhubarb Oat Scones</h2>
-  <h4>*seasonal*</h4>
-  <h4>Ingredients:</h4>
+  <h6>*seasonal*</h6>
+  <h6>Ingredients:</h6>
   </div>
 </div> -->
 
@@ -290,36 +317,39 @@ font-size: 8pt;
 
 <!-- START VERY HEALTHY ROW 1 -->
 <div class = "container">
-  <h2>Very Healthy</h2>
+  <h2 class="category" align="center">Very Healthy</h2>
+  <div class="block_1"> </div> <hr />
+
+
 <div class="container scone col-md-4">
   <img src="../assets/very-raspberry.jpg" alt="WG Raspberry" class="image">
   
-  <h2>Whole Grain Raspberry Scones</h2>
-  <h4>Ingredients: whole wheat flour, raspberries, oatmeal, butter*, water, honey, baking powder, and salt.
+  <h3 class="productnames">Whole Grain Raspberry Scones</h3>
+  <h6>Ingredients: whole wheat flour, raspberries, oatmeal, butter*, water, honey, baking powder, and salt.
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/wg-choc.jpg" alt="WG Chocolate" class="image">
   
-  <h2>Whole Grain Chocolate Scones</h2>
-  <h4>Ingredients: whole wheat flour, dark chocolate chunks, oats, butter*, water, raw honey, baking powder, and salt.
+  <h3 class="productnames">Whole Grain Chocolate Scones</h3>
+  <h6>Ingredients: whole wheat flour, dark chocolate chunks, oats, butter*, water, raw honey, baking powder, and salt.
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/wg-pumpkin.jpg" alt="WG Pumpkin" class="image">
   
-  <h2>Whole Grain Pumpkin Scones</h2>
-  <h4>*seasonal*</h4>
-  <h4>Ingredients: whole wheat flour, pumpkin, oats, butter*, water, raw honey, baking powder, pumpkin spice, salt, and cinnamon.
+  <h3 class="productnames">Whole Grain Pumpkin Scones</h3>
+  <h6>*seasonal*</h6>
+  <h6>Ingredients: whole wheat flour, pumpkin, oats, butter*, water, raw honey, baking powder, pumpkin spice, salt, and cinnamon.
 </br> 
 *no trans fats
-</h4>
+</h6>
 </div>
 </div>
 
@@ -330,10 +360,10 @@ font-size: 8pt;
   <div class="overlay">
   
   <h2>Whole Grain Banana Walnut Scones</h2>
-  <h4>Ingredients: whole wheat flour, bananas, oatmeal, butter*, water, walnuts, honey, baking powder, banana extract, and salt.
+  <h6>Ingredients: whole wheat flour, bananas, oatmeal, butter*, water, walnuts, honey, baking powder, banana extract, and salt.
 </br> 
 *no trans fats
-</h4>
+</h6>
   </div>
 </div> -->
 </div>
@@ -341,48 +371,54 @@ font-size: 8pt;
 
 <!-- START ULTRA HEALTHY ROW 1 -->
 <div class = "container">
-  <h2>Ultra Healthy</h2>
+  <h2 class="category" align="center">Ultra Healthy</h2>
+  <div class="block_1"> </div> <hr />
+
+
 <div class="container scone col-md-4">
   <img src="../assets/wg-blueberry.JPG" alt="WG Blueberry" class="image">
   
-  <h2>Whole Grain Blueberry Scones</h2>
-  <h4>Ingredients: whole wheat flour, blueberries, oats, coconut oil*, water, raw honey**, baking powder, ground flax seed, and salt.
+  <h3 class="productnames">Whole Grain Blueberry Scones</h3>
+  <h6>Ingredients: whole wheat flour, blueberries, oats, coconut oil*, water, raw honey**, baking powder, ground flax seed, and salt.
 </br> 
 *no trans fats
 </br>
 **"Virtually Vegan"
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/ultra-cranberry.JPG" alt="WG Cranberry Orange" class="image">
   
-  <h2>Whole Grain Cranberry Orange Scones</h2>
-  <h4>Ingredients: whole wheat flour, cranberries, oats, coconut oil*, water, raw honey**, orange juice, baking powder, ground flax seed, orange peel, and salt.
+  <h3 class="productnames">Whole Grain Cranberry Orange Scones</h3>
+  <h6>Ingredients: whole wheat flour, cranberries, oats, coconut oil*, water, raw honey**, orange juice, baking powder, ground flax seed, orange peel, and salt.
 </br> 
 *no trans fats
 </br>
 **"Virtually Vegan"
-</h4>
+</h6>
 </div>
 
 <div class="container scone col-md-4">
   <img src="../assets/ultra-carrot.JPG" alt="WG Carrot" class="image">
   
-  <h2>Whole Grain Carrot Raisin Scones</h2>
-  <h4>Ingredients: whole wheat flour, carrots, oats, raisins, coconut oil*, water, raw honey**, baking powder, ground flax seed, ground cinnamon, and salt.
+  <h3 class="productnames">Whole Grain Carrot Raisin Scones</h3>
+  <h6>Ingredients: whole wheat flour, carrots, oats, raisins, coconut oil*, water, raw honey**, baking powder, ground flax seed, ground cinnamon, and salt.
     </br> 
     *no trans fats
     </br>
     **"Virtually Vegan"
-    </h4>
+    </h6>
   </div>
 </div>
 
 
 <!-- START GLUTEN FREE ROW 1 -->
 <div class = "container">
-  <h2>Gluten Free / Vegan</h2>
+  <h2 class = "category" align="center">Gluten Free & Vegan</h2>
+  <div class="block_1"> </div> <hr />
+
+
 
 
   <!-- BANANA BLUEBERRY -->
@@ -391,8 +427,8 @@ font-size: 8pt;
   <div class="overlay">
   
   <h2>Gluten Free Vegan Banana Blueberry Scones</h2>
-  <h4>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), blueberries, bananas, coconut oil, brown sugar, baking powder, banana extract, and salt. 
-</h4>
+  <h6>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), blueberries, bananas, coconut oil, brown sugar, baking powder, banana extract, and salt. 
+</h6>
   </div>
 </div> -->
 
@@ -402,8 +438,8 @@ font-size: 8pt;
   <div class="overlay">
   
   <h2>Gluten Free Vegan Raspberry Scones</h2>
-  <h4>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), raspberries, coconut oil, brown sugar, baking powder, almond extract, and salt. 
-</h4>
+  <h6>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), raspberries, coconut oil, brown sugar, baking powder, almond extract, and salt. 
+</h6>
   </div>
 </div> -->
 
@@ -411,9 +447,9 @@ font-size: 8pt;
 <div class="container scone col-md-4">
   <img src="../assets/gf-mocha.JPG" alt="WG Pumpkin" class="image">
   
-  <h2>Gluten Free Vegan Mocha Scones</h2>
-  <h4>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), dairy free chocolate chips, coconut oil, brown sugar, pure vanilla, coconut extract, coffee extract, cocoa powder, ground coffee beans, baking powder, and salt. 
-</h4>
+  <h3 class="productnames"><i>Gluten Free Vegan Mocha Scones</i></h3>
+  <h6>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), dairy free chocolate chips, coconut oil, brown sugar, pure vanilla, coconut extract, coffee extract, cocoa powder, ground coffee beans, baking powder, and salt. 
+</h6>
 </div>
 
 
@@ -423,8 +459,8 @@ font-size: 8pt;
   <div class="overlay">
   
   <h2>Gluten Free, Sugar Free, Vegan Apple Cinnamon Scones</h2>
-  <h4>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), apples, ground cinnamon, coconut oil, natural sugar free sweeteners (erithritol and stevia), baking powder, and salt. 
-</h4>
+  <h6>Ingredients: Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), apples, ground cinnamon, coconut oil, natural sugar free sweeteners (erithritol and stevia), baking powder, and salt. 
+</h6>
   </div>
 </div>
  -->
@@ -438,12 +474,9 @@ font-size: 8pt;
 
 
 
-
-</body>
-
       <!-- FOOTER -->
       <div class = "footer">
-        <p>&copy; 2018 Chris & Lori's Bakehouse.</p>
+        <h5>&copy; 2018 Chris & Lori's Bakehouse.</h5>
       </div>
     </main>
 
