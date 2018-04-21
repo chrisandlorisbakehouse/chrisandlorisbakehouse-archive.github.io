@@ -31,9 +31,15 @@ p {
   font-size: 2rem;
 }
 
+/* mouse over link */
+a:hover {
+    color: lightblue;
+}
+
+
 h1 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h2 {
