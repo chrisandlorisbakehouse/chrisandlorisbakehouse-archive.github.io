@@ -79,8 +79,14 @@ hr {
 
 }
 
-.navbar-brand {
-  padding: 2%;
+.navbar-brand img {
+  padding: 3%;
+  width: 45px;
+}
+
+.navbar-left {
+  margin: 10%;
+  margin-bottom: 40%
 }
 
 .dropdown-item {
