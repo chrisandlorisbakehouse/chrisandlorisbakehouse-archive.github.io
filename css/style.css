@@ -82,11 +82,18 @@ hr {
 .navbar-brand img {
   padding: 3%;
   width: 60%;
+  margin-top: 0px;
+  top: 0px;
 }
 
 .navbar-left {
-  margin: 10%;
+  margin: 0%;
   margin-bottom: 40%
+}
+
+.mobile-menu {
+  font-family: 'Quicksand', sans-serif;
+  padding: 9%;
 }
 
 .dropdown-item {
@@ -106,6 +113,7 @@ hr {
   text-align: center;
   font-size: 18pt;
   width:100%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .pagetitle {
