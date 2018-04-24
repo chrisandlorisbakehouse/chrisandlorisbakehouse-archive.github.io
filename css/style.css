@@ -76,6 +76,7 @@ hr {
   background-color: #781e27;
   padding: 0px;
   margin: 0px;
+  border-radius: 0px;
 
 }
 
@@ -118,6 +119,12 @@ hr {
 
 .pagetitle {
   font-family: 'Kalam', sans-serif;
+
+}
+
+.carousel-product-name {
+  font-family: 'Kalam', sans-serif;
+  font-size: 3rem; 
 
 }
 
