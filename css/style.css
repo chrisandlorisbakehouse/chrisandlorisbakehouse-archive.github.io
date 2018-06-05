@@ -118,15 +118,40 @@ hr {
 }
 
 .pagetitle {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', sans-serif;
+  text-shadow: 2px 2px #111
 
 }
 
 .carousel-product-name {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', sans-serif;
   font-size: 3rem; 
 
 }
+
+.button {
+  padding: 2px 2px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #781e27}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
 
 /*font-family: 'Kalam', cursive;
 font-family: 'Caveat', cursive;
@@ -137,6 +162,8 @@ font-family: 'Quicksand', sans-serif;*/
 span {
   color: white;
 }
+
+
 
 
 /* Sticky footer styles
