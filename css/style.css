@@ -9,6 +9,26 @@
   box-sizing: inherit;
 }*/
 
+
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: pink;
+    color: green;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+  padding: 10%;
+}
+
+.dropdowntext {
+  font-size: 12pt
+}
+
+
 body {
   position: relative;
   margin: 0;
@@ -48,7 +68,7 @@ h2 {
   color: #781e27;
 }
 
-h4 {;
+h4 {
   color: #781e27;
   font-size: 2rem;
   padding: 10px;
@@ -119,7 +139,7 @@ hr {
 
 .pagetitle {
   font-family: 'Permanent Marker', sans-serif;
-  text-shadow: 2px 2px #111
+  text-shadow: 2px 2px #dddddd
 
 }
 
