@@ -156,17 +156,23 @@ hr {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: white;
+  background-color: #781e27;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 5px #999;
+  box-shadow: 2px 5px #999;
 }
 
-.button:hover {background-color: #781e27}
+.button:hover {
+  background-color: #781e27;
+  transform: translateY(2px);
+  box-shadow: 0 3px #999;
+
+
+}
 
 .button:active {
-  background-color: white;
-  box-shadow: 0 5px #666;
+  background-color: #781e27;
+  box-shadow: 0 3px #999;
   transform: translateY(4px);
 }
 
