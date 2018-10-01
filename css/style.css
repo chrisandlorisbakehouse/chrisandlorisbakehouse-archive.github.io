@@ -9,6 +9,25 @@
   box-sizing: inherit;
 }*/
 
+/*download button*/
+.btn {
+  background-color: #781e27;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 2%;  
+  font-family: quicksand;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: lightblue;
+  color: white;
+  font-family: quicksand;
+}
 
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
 .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
@@ -30,12 +49,20 @@ li.dropdown:hover > .dropdown-menu {
 
 
 body {
+  background-color: #781e27;
   position: relative;
   margin: 0;
   padding-bottom: 0rem;
 /*  min-height: 100%;*/
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
+main {
+    background-color: white;
+    text-align: center;
+    color: white;
+}
+
 
 li {
 	display: inline-block;
