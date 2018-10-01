@@ -19,14 +19,15 @@
   font-size: 20px;
   text-align: center;
   margin-bottom: 2%;  
-  font-family: quicksand;
+  font-family: Quicksand, sans-serif;
+  box-shadow: 2px 3px #ccc;
 }
 
-/* Darker background on mouse-over */
+/* blue background on mouse-over */
 .btn:hover {
   background-color: lightblue;
   color: white;
-  font-family: quicksand;
+  font-family: Quicksand, sans-serif;
 }
 
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
