@@ -155,18 +155,6 @@ hr {
 
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: lightgrey;
-  text-align: center;
-  font-size: 18pt;
-  width:100%;
-  font-family: 'Quicksand', sans-serif;
-}
 
 .pagetitle {
   font-family: 'Permanent Marker', sans-serif;
@@ -237,19 +225,31 @@ body {
 }
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #f5f5f5;
+  line-height: 60px; 
   color:  #781e27;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 18pt;
+  width:100%;
+  font-family: 'Quicksand', sans-serif;
+  display: inline-block;
 }
-
 
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+
+#pixlee_container {
+margin-bottom: 15%;
+display: inline-block;
+}
 
 body > .container {
   padding: 60px 15px 0;
