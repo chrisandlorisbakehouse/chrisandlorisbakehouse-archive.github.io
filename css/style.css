@@ -9,6 +9,8 @@
   box-sizing: inherit;
 }*/
 
+
+
 /*download button*/
 .btn {
   background-color: #781e27;
@@ -128,9 +130,13 @@ hr {
 
 }
 
+.navbar-header {
+  height: 9rem;
+}
+
 .navbar-brand img {
   padding: 3%;
-  width: 60%;
+  width: 40%;
   margin-top: 0px;
   top: 0px;
 }
