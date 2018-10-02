@@ -127,23 +127,20 @@ hr {
   padding: 0px;
   margin: 0px;
   border-radius: 0px;
-
 }
 
 .navbar-header {
-  height: 9rem;
+  height: 8rem;
 }
 
 .navbar-brand img {
-  padding: 3%;
-  width: 40%;
-  margin-top: 0px;
-  top: 0px;
+  padding-bottom: 0%;
+  width: 33%;
 }
 
 .navbar-left {
   margin: 0%;
-  margin-bottom: 40%
+  margin-bottom: 0%
 }
 
 .mobile-menu {
