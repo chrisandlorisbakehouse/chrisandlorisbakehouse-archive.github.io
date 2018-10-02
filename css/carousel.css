@@ -32,13 +32,13 @@ align-content: center;
 }
 
 /* Declare heights because of positioning of img element */
-.carousel-item {
+/*.carousel-item {
   height: 70rem;
   background-color: #781e27;
 
-}
+}*/
 .carousel-item > img {
-  position: absolute;
+/*  position: absolute;*/
   top: 0;
   left: 0;
   min-width: 100%;
