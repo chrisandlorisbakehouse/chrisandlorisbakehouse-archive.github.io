@@ -160,8 +160,8 @@ hr {
 
 #myCarousel {
   background-color: black;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 2%;
+  padding-left: 2%;
   align-self: center;
   height: 100%;
 }
