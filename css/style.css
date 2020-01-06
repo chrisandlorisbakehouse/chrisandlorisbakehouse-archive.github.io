@@ -55,7 +55,7 @@ body {
   background-color: #781e27;
   position: relative;
   margin: 0;
-  padding-bottom: 0rem;
+  padding-bottom: 60px;
 /*  min-height: 100%;*/
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -200,20 +200,14 @@ hr {
   transform: translateY(4px);
 }
 
-
-
-
 /*font-family: 'Kalam', cursive;
 font-family: 'Caveat', cursive;
 font-family: 'Architects Daughter', cursive;
 font-family: 'Quicksand', sans-serif;*/
 
-
 span {
   color: white;
 }
-
-
 
 
 /* Sticky footer styles
@@ -225,7 +219,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 0px;
+/*  margin-bottom: 60px;*/
   background-color: white;
   margin-top: 0px;
 }
@@ -238,7 +232,7 @@ body {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 5%;
+  height: 60px;
 /*  line-height: 60px; */
   color:  white;
   right: 0;
@@ -257,19 +251,19 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-#pixlee_container {
+/*#pixlee_container {
 margin-bottom: 15%;
 display: inline-block;
-}
+}*/
 
-body > .container {
+/*body > .container {
   padding: 60px 15px 0;
 }
 
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
-}
+}*/
 
 code {
   font-size: 80%;
