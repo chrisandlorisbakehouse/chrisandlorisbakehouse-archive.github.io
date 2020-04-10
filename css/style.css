@@ -78,7 +78,7 @@ ul {
 }
 
 p {
-  font-size: 2.3rem;
+  font-size: 3rem;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -96,6 +96,14 @@ h1 {
 h2 {
   font-family: 'Quicksand', sans-serif;
   color: #781e27;
+}
+
+h3 {
+  color: #781e27;
+  font-family:  'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 10px;
 }
 
 h4 {
