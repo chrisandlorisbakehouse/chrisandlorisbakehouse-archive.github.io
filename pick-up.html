@@ -19,6 +19,87 @@
 <style>
 * {box-sizing: border-box;}
 
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #dadfe0; 
+}
+th { 
+  background: #69181f; 
+  color: white; 
+/*  font-weight: bold;*/
+/*  font-family: 'Permanent Marker', sans-serif;*/
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+
+
+
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 1.5px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    font-family: 'Permanent Marker', sans-serif;
+  }
+  
+  /*
+  Label the data
+  */
+  td:nth-of-type(1):before { content: "Where"; }
+  td:nth-of-type(2):before { content: "When"; }
+  td:nth-of-type(3):before { content: "How to Order"; }
+  td:nth-of-type(4):before { content: "Order Deadline"; }
+  .table2  td:nth-of-type(1):before { content: "Order"; }
+  .table2 td:nth-of-type(2):before { content: "Price"; }
+
+}
+
+
+
+
+
 .app-buttons {
   margin: 10px;
   display: block;
@@ -152,39 +233,44 @@ Gluten Free Vegan Raspberry
 Gluten Free Vegan Mocha -->
 
 <div class = "container">
-<h3>For the latest updates on what's available to order, please see our <a href="https://www.facebook.com/Chris-Loris-Bakehouse-198694783507805/">Facebook page.</a></h3>
+<!-- <h3>For the latest updates on what's available to order, please see our <a href="https://www.facebook.com/Chris-Loris-Bakehouse-198694783507805/">Facebook page.</a></h3> -->
 
-<h3 class="category"  align="center"><b>5/8 and 5/9 Pick-Ups</b></h3>
+<!-- <h3 class="category"  align="center"><b>5/8 and 5/9 Pick-Ups</b></h3> -->
+
 <h3>  
-
-We are offering three options for pick-ups this week:
+We are offering three options for pick-ups this week, May 8 and 9:
 <br><br>
 
 
-<table style="width:70%">
+<table>
+  <thead>
   <tr>
     <th>Where</th>
     <th>When</th>
     <th>How to Order</th>
     <th>Order Deadline</th>
   </tr>
+  <tbody>
   <tr>
     <td>Poynette</td>
-    <td>Friday, <br>May 8, <br>3-4pm</td>
-    <td rowspan="2">Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a></td>
-    <td rowspan="3">Thursday, <br>May 7, <br>12pm</td>
+    <td>Friday, May 8, 3-4pm</td>
+    <td>Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a></td>
+    <td>Thursday, May 7, 12pm</td>
   </tr>
   <tr>
     <td>Westside Community Market*</td>
-    <td>Saturday, <br>May 9, <br>7am-12:30pm</td>
-<!--     <td>Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a> </td> -->
+    <td>Saturday, May 9, 7am-12:30pm</td>
+    <td>Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a></td>
+    <td>Thursday, May 7, 12pm</td>
   </tr>
   <tr>
     <td><a href="https://dcfm.org/fresh/dane-county-farmers-market-opens-local-food-pick-ups-at-alliant-energy-center-starting-april-22nd?fbclid=IwAR20yVgTEYa3MJhZqAYnfEJrAR6iu972J0a11XpBByEseLydTY23Pdc40aU">Alliant Energy Center</a></td>
-    <td>Saturday, <br>May 9, <br>8am-12pm</td>
-    <td>WhatsGood Marketplace <br><a href="https://sourcewhatsgood.com/">sourcewhatsgood.com</a>. 
+    <td>Saturday, May 9, 8am-12pm</td>
+    <td>WhatsGood Marketplace <br><a href="https://sourcewhatsgood.com/">sourcewhatsgood.com</a>.
+    <td>Thursday, May 7, 12pm</td>
     </td>
   </tr>
+</tbody>
 </table>
 
 *Ordering individual scones will be available at WCM, but we strongly encourage pre-ordering. <br><br>
@@ -193,15 +279,18 @@ Pre-order pricing options:
 
 <br>
 <br>
-<table style="width:50%">
+<table class = "table2">
+  <thead>
   <tr>
     <th>Order</th>
     <th>Price</th>
   </tr>
+  </thead>
 <!--   <tr>
     <td>Cut-Out Cookie Bundle (2 Cow Cookies + 12 Flower Cookies)</td>
     <td>$18</td>
   </tr> -->
+  <tbody>
   <tr>
     <td>6 scones (all one flavor)</td>
     <td>$18</td>
@@ -210,6 +299,7 @@ Pre-order pricing options:
     <td>12 scones (all one flavor)</td>
     <td>$30</td>
   </tr>
+  </tbody>
 </table>
 
 <br><br>Cookies and scones freeze well, so don’t be afraid to stock up! We are complying with physical distancing, so we’re sorry but we cannot chat. Thank you all for your wonderful support! The options for this week's pre-order are below:</h3>
@@ -222,8 +312,6 @@ Pre-order pricing options:
   <h3 class="productnames">Chocolate Chip Sconuts</h3>
   <p class = "ingredients"><b>Ingredients:</b> white flour, chocolate chips, butter, brown sugar, egg, water, vanilla, baking powder, almond extract, and salt. </p>
 </div>
-
-
 
 <div class="container scone col-md-4">
    <img src="../assets/img/whitechocrasp.jpg" alt="White Chocolate Raspberry" class="image">
