@@ -166,18 +166,26 @@ font-family: 'Caveat', cursive;
 font-family: 'Architects Daughter', cursive;
 font-family: 'Quicksand', sans-serif;*/
 
-p {
-font-size: 1em;
+.details {
+  background-color: lightgrey;
+  left: 100px;
+  padding: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
-h3 {
-
+p {
+font-size: 1.4rem;
+margin: 2%;
 
 }
 
 table, th, td {
   border: 1px solid black;
   padding: 15px;
+
+
+
 }
 
 </style>
@@ -223,6 +231,10 @@ table, th, td {
 
 <h1 class = "pagetitle" align="center">COVID-19</h1>
 
+<div class = "container">
+  <h3>Every week, order options will be made available on Sunday evenings. See this week's offerings below. </h3>
+   <img src="../assets/img/covidsafety.PNG" alt="COVID Safety" style="height:300px;width:650px">
+</div>
 
 
 <!-- 
@@ -309,13 +321,14 @@ Pre-order pricing options:
 
 <div class="container scone col-md-4">
   <img src="../assets/img/sconut.jpg" alt="Sconuts" class="image">
-  <h3 class="productnames">Chocolate Chip Sconuts</h3>
+  <h3 class="productnames">Chocolate Chip Sconuts <br>(Healthy Schmealthy)</h3>
   <p class = "ingredients"><b>Ingredients:</b> white flour, chocolate chips, butter, brown sugar, egg, water, vanilla, baking powder, almond extract, and salt. </p>
 </div>
 
 <div class="container scone col-md-4">
    <img src="../assets/img/whitechocrasp.jpg" alt="White Chocolate Raspberry" class="image">
-    <h3 class="productnames">White Chocolate Raspberry Scones</h3>
+    <h3 class="productnames">White Chocolate Raspberry Scones <br>(Slightly Healthy)</h3>
+    <p class = "ingredients"><b>Slightly Healthy</b></p>
     <p class = "ingredients">
     <b>Category:</b> Slightly Healthy</br>
     <b>Ingredients:</b> white flour, white chocolate chunks, raspberries, butter*, water, eggs, granulated sugar, water, baking powder, almond extract, and salt.
@@ -325,7 +338,7 @@ Pre-order pricing options:
 
 <div class="container scone col-md-4">
   <img src="../assets/img/vanilla.jpg" alt="Vanilla Almond" class="image">
-  <h3 class="productnames">Vanilla Almond Scones</h3>
+  <h3 class="productnames">Vanilla Almond Scones <br>(Slightly Healthy)</h3>
   <p class = "ingredients"><b>Ingredients:</b>  white flour, water, butter*, eggs, pure vanilla, almond extract, sliced almonds, granulated sugar, baking powder, and salt.
   <b>Glaze:</b> water, corn syrup, and powdered sugar. </p>
 <p>*no trans fats </p>
@@ -341,18 +354,10 @@ Pre-order pricing options:
  -->
 <div class = "container">
 
-<div class="container scone col-md-4">
-  <img src="../assets/img/espresso.jpg" alt="Espresso Dark Chocolate" class="image">
-  <h3 class="productnames">Espresso Dark Chocolate Scones</h3>
-  <p class = "ingredients"><b>Ingredients:</b>  white flour, dark chocolate chunks, butter*, brewed coffee, eggs, vanilla, granulated sugar, baking powder, ground fair trade coffee beans, and salt.
-  <b>Glaze:</b> water, corn syrup, and powdered sugar.</p>
-<p> *no trans fats </p>
-</div>
-
 
 <div class="container scone col-md-4">
   <img src="../assets/img/semiblueberry.jpg" alt="Blueberry" class="image">
-  <h3 class="productnames">Blueberry Oat Scones</h3>
+  <h3 class="productnames">Blueberry Oat Scones <br>(Semi Healthy)</h3>
   <p class = "ingredients"><b>Ingredients:</b> white flour, oats, butter*, blueberries, water, brown sugar, baking powder, and salt.
   <b>Glaze:</b> water, corn syrup, and powdered sugar. </p>
   <p>*no trans fats</p>
@@ -361,10 +366,18 @@ Pre-order pricing options:
 
 <div class="container scone col-md-4">
   <img src="../assets/img/cinnamon.jpg" alt="Cinnamon" class="image">
-  <h3 class="productnames">Cinnamon Oat Scones</h3>
+  <h3 class="productnames">Cinnamon Oat Scones<br>(Semi Healthy)</h3>
   <p class = "ingredients"><b>Ingredients:</b> white flour, oats, butter*, water, cinnamon chips, brown sugar, ground cinnamon, baking powder, and salt. 
   <b>Glaze:</b> Water, corn syrup, and powdered sugar. </p>
   <p>*no trans fats</p>
+</div>
+
+<div class="container scone col-md-4">
+  <img src="../assets/img/espresso.jpg" alt="Espresso Dark Chocolate" class="image">
+  <h3 class="productnames">Espresso Dark Chocolate Scones <br>(Very Healthy)</h3>
+  <p class = "ingredients"><b>Ingredients:</b>  white flour, dark chocolate chunks, butter*, brewed coffee, eggs, vanilla, granulated sugar, baking powder, ground fair trade coffee beans, and salt.
+  <b>Glaze:</b> water, corn syrup, and powdered sugar.</p>
+<p> *no trans fats </p>
 </div>
 
 
@@ -375,7 +388,7 @@ Pre-order pricing options:
 
 <div class="container scone col-md-4">
   <img src="../assets/img/wgraspberry.jpg" alt="WG Raspberry" class="image">
-  <h3 class="productnames">Whole Grain Raspberry Scones</h3>
+  <h3 class="productnames">Whole Grain Raspberry Scones<br>(Very Healthy)</h3>
   <p class = "ingredients"><b>Ingredients:</b>  whole wheat flour, raspberries, oatmeal, butter*, water, honey, baking powder, and salt. </p>
   <p>*no trans fats</p>
 </div>
@@ -383,7 +396,7 @@ Pre-order pricing options:
 
 <div class="container scone col-md-4">
   <img src="../assets/img/wgcranberry.JPG" alt="WG Cranberry Orange" class="image">
-  <h3 class="productnames">Whole Grain Cranberry Orange Scones</h3>
+  <h3 class="productnames">Whole Grain Cranberry Orange Scones<br>(Ultra Healthy)</h3>
   <p class = "ingredients"><b>Ingredients:</b>  whole wheat flour, cranberries, oats, coconut oil*, water, raw honey**, orange juice, baking powder, ground flax seed, orange peel, and salt.</p>
   <p> *no trans fats </br> **virtually vegan</p>
 </div>
