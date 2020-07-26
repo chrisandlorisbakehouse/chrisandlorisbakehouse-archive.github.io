@@ -3,9 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Offering comfort in the form of scones and cookies.">
     <meta name="author" content="">
-    <link rel="icon" href="./assets/icon/hat.png">
+    <meta property="og:title" content="Chris & Lori's Bakehouse: Products">
+    <meta property="og:image" content="../assets/img/semicranberry.jpg">
+    <meta property="image" content="../assets/img/semicranberry.jpg">
+    <meta property="og:description" content="Offering comfort in the form of scones and cookies.">
+<!--     <meta property="og:url" content="https://example.com/page.html"> -->
+    <meta name="twitter:card" content="../assets/img/semicranberry.jpg">
+    <link rel="icon" href="../assets/img/semicranberry.jpg">
     <title>Chris & Lori's Bakehouse</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Caveat|Kalam:300|Quicksand|Permanent+Marker" rel="stylesheet">
@@ -18,6 +24,87 @@
 
 <style>
 * {box-sizing: border-box;}
+
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  color: #781e27;
+  font-family:  'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 10px;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #dadfe0; 
+}
+th { 
+  background: #69181f; 
+  color: white; 
+/*  font-weight: bold;*/
+/*  font-family: 'Permanent Marker', sans-serif;*/
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc; }
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 3px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: -2px;
+    left: 4px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    font-family: 'Permanent Marker', sans-serif;
+  }
+  
+  /*
+  Label the data
+  */
+  td:nth-of-type(1):before { content: "Where"; }
+  td:nth-of-type(2):before { content: "When"; }
+  td:nth-of-type(3):before { content: "How to Order"; }
+  td:nth-of-type(4):before { content: "Ordering Window"; }
+  .table2  td:nth-of-type(1):before { content: "Order"; }
+  .table2 td:nth-of-type(2):before { content: "Price"; }
+}
+
+
 
 .container {
   position: relative;
@@ -81,6 +168,26 @@ p {
 font-size: 1em;
 }
 
+.details {
+  background-color: lightgrey;
+  left: 100px;
+  padding: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+p {
+font-size: 1.4rem;
+margin: 2%;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 15px;
+
+
+
 </style>
 
     <nav class="navbar navbar-toggleable-md bg-light"> <!-- Create the navbar -->
@@ -96,9 +203,6 @@ font-size: 1em;
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link active this-week" href="this-week.html">This Week's Options</a>
             </li>
 <!--           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farmer's Markets</a>
@@ -122,13 +226,114 @@ font-size: 1em;
   </head>
   <body>
 
-<h1 class = "pagetitle" align="center">Products</h1>
+<div style="background-color:#dadfe0;padding:1%">
+  <h1 class = "pagetitle" align="center">Products</h1>
+  <h1 style = "font-size:1em;color:grey;font-weight:bold" align="center">Offering comfort in the form of scones and cookies.</h1>
+</div>
 <!-- START HEALTHY SCHMEALTHY ROW 1 -->
 <div class = "container">
 
-<h3> Some of these products are seasonal and are not available at all times. For information about which products are available for ordering and pick-up during the COVID-19 pandemic, please refer to our <a href="covid-19.html">COVID-19</a> page. Please direct any questions to <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a>. </br>
-</h3>
+<h3>Starting on August 1, we will be producing all of our in-season products, still in dozens and half dozens for preorders. There is also a new walk-up market at the Alliant Energy Center from 9:30am-1pm on Saturdays.</h3>
 
+
+<h3 style="font-size:1.5em"><strong>Ordering Options</strong></h3>
+<table>
+  <thead>
+  <tr>
+    <th>Where</th>
+    <th>When to Pick Up</th>
+    <th>How to Order</th>
+    <th>Preorder Deadline</th>
+  </tr>
+  <tbody>
+<!--   <tr>
+    <td>CrossFit DeForest</td>
+    <td>Friday, July 3, 3-4pm</td>
+    <td>Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a></td>
+    <td>Sun, June 28 at 10am to Thurs, July 2 at 12pm</td>
+  </tr> -->
+  <tr>
+    <td><a href="https://www.westsidecommunitymarket.org/">Westside Community Market</a>*</td>
+    <td>Saturday, August 1, 7am-12:30pm</td>
+    <td>Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a></td>
+    <td rowspan="3">Thurs, July 30 at 12pm</td>
+  </tr>
+  <tr>
+    <td><a href="https://dcfm.org/fresh/dane-county-farmers-market-opens-local-food-pick-ups-at-alliant-energy-center-starting-april-22nd?fbclid=IwAR20yVgTEYa3MJhZqAYnfEJrAR6iu972J0a11XpBByEseLydTY23Pdc40aU">Alliant Energy Center Drive-Thru Pickup</a></td>
+    <td>Saturday, August 1, 7am-9am</td>
+    <td>WhatsGood Marketplace <br><a href="https://sourcewhatsgood.com/">sourcewhatsgood.com</a> or in person during the market</td>
+  </tr>
+  <tr>
+    <td>Mail order</td>
+    <td>N/A</td>
+    <td>Email <a href="mailto:CLBakehouse@gmail.com" target="_top">CLBakehouse@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://madison.com/wsj/news/local/capitol-square-wont-host-farmers-market-this-season-but-walk-ups-coming-to-alliant/article_495be21e-636b-5911-86b9-f40e747bf8f6.html">NEW Alliant Energy Center Walk-Up Market</a>*</td>
+    <td>Saturday, August 1, 9:30am-1pm</td>
+    <td>In person, 7am-9am</td>
+    <td>N/A</td>
+  </tr>
+</tbody>
+</table>
+
+<h3>*Ordering individual scones will be available.</h3>
+
+<h3 style="font-size:1.5em"><strong>Pricing</strong></h3>
+<table class = "table2">
+  <thead>
+  <tr>
+    <th>Order</th>
+    <th>Price</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Flower & Cow Cookie Bundle</td>
+    <td>$18</td>
+  </tr>
+  <tr>
+    <td>6 scones (all one flavor)</td>
+    <td>$18</td>
+  </tr>
+  <tr>
+    <td>12 scones (all one flavor)</td>
+    <td>$30</td>
+  </tr>
+  <tr>
+    <td>Mail order (12 scones)</td>
+    <td>$50 (includes shipping)</td>
+  </tr>
+  </tbody>
+</table>
+
+<h3 style="font-size:1.5em"><strong>Products</strong></h3>
+<h3> Some of these products are seasonal and are not available at all times.</h3>
+
+
+<div class = "container">
+
+<div class="container scone col-md-4">
+  <img src="../assets/img/flowers_and_cows.png" alt="Flower & Cow Cookie Bundle" class="image">
+  <h3 class="productnames">Flower & Cow Cookie Bundle</h3>
+  <p class = "ingredients"><b>Ingredients:</b>  white flour, sugar, butter, margarine, egg, vanilla, and baking soda.</p>
+</div>
+
+<div class="container scone col-md-4">
+  <img src="../assets/img/sconut.jpg" alt="Sconuts" class="image">
+  <h3 class="productnames">Chocolate Chip Sconuts</h3>
+  <p class = "ingredients"><b>Ingredients:</b> white flour, chocolate chips, butter, brown sugar, egg, water, vanilla, baking powder, almond extract, and salt. </p>
+</div>
+
+<div class="container scone col-md-4">
+  <img src="../assets/img/whitechocrasp.jpg" alt="White Chocolate Raspberry" class="image">
+    <h3 class="productnames">White Chocolate Raspberry Scones</h3>
+  <p class = "ingredients"><b>Ingredients:</b> white flour, white chocolate chunks, raspberries, butter*, water, eggs, granulated sugar, water, baking powder, almond extract, and salt.
+  <b>Glaze:</b> water, corn syrup, and powdered sugar. </p>
+<p>*no trans fats</p>
+</div>
+
+</div>
 
   <h2 class="category"  align="center">Healthy Schmealthy</h2>
 
@@ -141,7 +346,7 @@ font-size: 1em;
 
 <div class="container scone col-md-4">
   <img src="../assets/img/fallleaves.jpg" alt="Fall Leaf Cookies" class="image">
-    <h3 class="productnames">Fall Leaf Cookies</h3>
+    <h3 class="productnames">Fall Leaf Cookies (SEASONAL)</h3>
   <p class = "ingredients"><b>Ingredients:</b> white flour, sugar, butter, margarine, egg, vanilla, and baking soda. </p>
 </div>
 
@@ -226,7 +431,7 @@ font-size: 1em;
 
 <div class="container scone col-md-4">
   <img src="../assets/img/pumpkinmuffins.jpg" alt="Pumpkin Muffins" class="image">
-  <h3 class="productnames">Pumpkin Cream Cheese Muffins</h3>
+  <h3 class="productnames">Pumpkin Cream Cheese Muffins (SEASONAL)</h3>
   <p class = "ingredients"><b> Ingredients:</b> sugar, white flour, oil, pumpkin, cream cheese, baking powder, ground cinnamon, baking soda, and salt. </p>
 </div>
 
@@ -265,7 +470,7 @@ font-size: 1em;
 
 <div class="container scone col-md-4">
   <img src="../assets/img/rhubarb.png" alt="Rhubarb" class="image">
-  <h3 class="productnames">Rhubarb Oat Scones</h3>
+  <h3 class="productnames">Rhubarb Oat Scones (SEASONAL)</h3>
    <p class = "ingredients"><b>Ingredients:</b> white flour, rhubarb, oats, butter*, water, brown sugar, baking powder, and salt.
   <b><b>Glaze:</b></b> water, corn syrup, powdered sugar
 </br> </p>
@@ -336,7 +541,7 @@ font-size: 1em;
 
   <div class="container scone col-md-4">
 	  <img src="../assets/img/wgpumpkin.jpg" alt="WG Pumpkin" class="image">
-	  <h3 class="productnames">Whole Grain Pumpkin Scones</h3>
+	  <h3 class="productnames">Whole Grain Pumpkin Scones (SEASONAL)</h3>
 	  <p class = "ingredients">Ingredients: whole wheat flour, pumpkin, oats, butter*, water, raw honey, baking powder, pumpkin spice, salt, and cinnamon.
 	<p>*no trans fats</p>
 </div>
@@ -425,7 +630,7 @@ font-size: 1em;
 
 <div class="container scone col-md-4">
   <img src="../assets/img/gfpumpkin.jpg" alt="GF Pumpkin" class="image">
-  <h3 class = "productnames">Gluten Free Vegan Pumpkin Scones</h3>
+  <h3 class = "productnames">Gluten Free Vegan Pumpkin Scones (SEASONAL)</h3>
   <p class = "ingredients"><b>Ingredients:</b>  Gluten free flour blend (brown rice, rice starch, sorghum, buckwheat, millet, potato starch, flaxseed meal, xanthan gum, locust bean gum, whole quinoa), pumpkin purée, coconut oil, brown sugar, baking powder, pumpkin spice blend, and salt. 
 </p>
 </br>
@@ -474,6 +679,11 @@ font-size: 1em;
   <p>gluten free, sugar free, keto, low carb</p>
 </div>
 </div>
+
+<br>
+<br>
+<br>
+<br>
 
 </body>
 
