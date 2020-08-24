@@ -13,6 +13,7 @@
     <meta name="twitter:card" content="../assets/img/semicranberry.jpg">
     <link rel="icon" href="../assets/img/semicranberry.jpg">
     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121211425-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -20,7 +21,9 @@
   gtag('js', new Date());
   gtag('config', 'UA-121211425-1');
 
-  alert("There will be no WhatsGood preorder for Saturday, 8/29. Sorry for any inconvenience.");
+  $(document).ready(function(){
+    alert('There will be no WhatsGood preorder for Saturday, 8/29. Sorry for any inconvenience.');
+  });
 
 </script>
 
