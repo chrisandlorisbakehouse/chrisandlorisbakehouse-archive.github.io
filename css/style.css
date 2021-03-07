@@ -175,13 +175,33 @@ hr {
 .carousel-product-name {
   font-family: 'Permanent Marker', sans-serif;
   font-size: 3rem; 
-
 }
+
+.carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem; 
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem; 
+  color:white;
+  }
+}
+
+/*@media only screen and (max-width: 600px) {
+  .first-slide {
+  height:100%;
+  }
+}*/
+
 
 #myCarousel {
   background-color: black;
-  padding-right: 2%;
-  padding-left: 2%;
+/*  padding-right: 2%;
+  padding-left: 2%;*/
   align-self: center;
   height: 100%;
 }
@@ -203,8 +223,6 @@ hr {
   background-color: #781e27;
   transform: translateY(2px);
   box-shadow: 0 3px #999;
-
-
 }
 
 .button:active {
