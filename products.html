@@ -37,10 +37,13 @@ table {
 }
 /* Zebra striping */
 tr:nth-of-type(odd) { 
+  background: white; 
+}
+tr:nth-of-type(even) { 
   background: lightgrey; 
 }
 th { 
-  background: white; 
+background: white; 
   color: black; 
 /*  font-weight: bold;*/
 /*  font-family: 'Permanent Marker', sans-serif;*/
@@ -98,11 +101,10 @@ only screen and (max-width: 760px),
   /*
   Label the data
   */
-  td:nth-of-type(1):before { content: "PICK-UP DATE"; }
-  td:nth-of-type(2):before { content: "LOCATION"; }
-  td:nth-of-type(3):before { content: "ORDERING DATES"; }
-  td:nth-of-type(4):before { content: "Preorder Deadline"; }
-  .table2  td:nth-of-type(1):before { content: "ORDER"; }
+  .table1 td:nth-of-type(1):before { content: "DATE AND TIME"; }
+  .table1 td:nth-of-type(2):before { content: "LOCATION"; }
+  .table1 td:nth-of-type(3):before { content: "ORDER DATES"; }
+  .table2 td:nth-of-type(1):before { content: "ORDER"; }
   .table2 td:nth-of-type(2):before { content: "PRICE"; }
 }
 
@@ -240,28 +242,14 @@ table, th, td {
 <h3 class="producttext">Please go to <a href=https://sourcewhatsgood.com/>sourcewhatsgood.com </a>to create an account for ordering and like <a href="https://www.facebook.com/Chris-Loris-Bakehouse-198694783507805/"> our Facebook page</a> to see the most up-to-date information about where and when you can get our scones. On Wednesdays, you can find us (preorders only). The Saturday <a href="https://dcfm.org/markets/local-food-pick-up">Dane County Farmer's Market</a> (walk-up market) is scheduled to return on April 10th. The <a href="https://www.westsidecommunitymarket.org/">Westside Community Market</a> will tentatively begin on April 17th. </h3>
 
 <br>
-<table>
+<table class = "table1">
   <thead>
   <tr>
-    <th>PICK-UPS AND MARKETS</th>
+    <th>DATE AND TIME</th>
     <th>LOCATION<b></b></th>
     <th>ORDER DATES ON <a href=https://sourcewhatsgood.com/>WHATSGOOD</a></th>
   </tr>
   </thead>
-<!--   <tbody>
-  <tr>
-    <td>Wednesday, March 24th <br>3:30pm – 5:30pm</td>
-    <td>Parking Lot of the Exhibition Hall at the Alliant Energy Center<br>(1919 Alliant Energy Center Way)</td>
-    <td>3/18/2021 – 3/23/2021 (ordering closes at noon)</td>
-  </tr>
-</tbody> -->
-<!--   <tbody>
-  <tr>
-    <td>Wednesday, March 31st <br>3:30pm – 5:30pm</td>
-    <td>Parking Lot of the Exhibition Hall at the Alliant Energy Center<br>(1919 Alliant Energy Center Way)</td>
-    <td>3/25/2021 – 3/30/2021 (ordering closes at noon)</td>
-  </tr>
-</tbody> -->
   <tbody>
   <tr>
     <td>Wednesday, April 7th <br>3:00pm – 6:00pm</td>
@@ -285,29 +273,6 @@ table, th, td {
 </tbody>
 </table>
 
-<!-- <table>
-  <thead>
-  <tr>
-    <th>PICK-UP DATE</th>
-    <th>LOCATION<b></b></th>
-    <th>ORDER DATES</a></th>
-  </tr>
-  <tbody>
-  <tr>
-    <td>Wednesday, March 3rd <br>12pm – 1pm</td>
-    <td>
-      <a href="https://www.google.com/maps/place/Chris+%26+Lori's+Bakehouse/@43.387385,-89.402963,15z/data=!4m5!3m4!1s0x0:0xd13c4ce213d5d9dd!8m2!3d43.387385!4d-89.402963">
-    110 W Mill St, <br> Poynette, WI 53955
-    </a>
-    </td>
-    <td>Ordering closes at noon on Thursday, February 11th<br>
-    Email your order to <a href="mailto:clbakehouse@gmail.com">
-    clbakehouse@gmail.com
-</a></td>
-  </tr>
-</tbody>
-</table>
- -->
 
 <br>
 
