@@ -1,9 +1,53 @@
 
+.carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem; 
+  color:white;
+}
+
+@media (min-width: 100px) {
+  .carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px; 
+  color:white;
+}
+}
+
+@media (min-width: 576px) {
+  .carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.3rem; 
+  color:white;
+}
+}
+
+@media (min-width: 768px) {
+  .carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8rem; 
+  color:white;
+}
+}
+
+@media (min-width: 992px) {
+  .carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.3rem; 
+  color:white;
+}
+}
+
+@media (min-width: 1200px) {
+  .carousel-message {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem; 
+  color:orange;
+}
+}
 
 
 
 .fab {
-/*  color:#781e27;*/
 color:white;
 text-decoration: none;
 }
@@ -177,25 +221,6 @@ hr {
   font-size: 3rem; 
 }
 
-.carousel-message {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 3rem; 
-  color:white;
-}
-
-@media only screen and (max-width: 600px) {
-  .carousel-message {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1rem; 
-  color:white;
-  }
-}
-
-/*@media only screen and (max-width: 600px) {
-  .first-slide {
-  height:100%;
-  }
-}*/
 
 
 #myCarousel {
