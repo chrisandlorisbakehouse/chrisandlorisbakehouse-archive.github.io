@@ -12,12 +12,12 @@
 
 /*CAROUSEL MESSAGE*/
 .carousel-caption {
-  background-color: black;
+  background-color: #1D0300;
   border-radius: 12px;
 
 }
 .carousel-message {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 2rem; 
   color:white;
   align-content: center;
@@ -25,7 +25,7 @@
 
 @media (min-width: 100px) {
   .carousel-message {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 1.5rem; 
   color:white;
   margin-left: 10px;
@@ -34,7 +34,7 @@
 
 @media (min-width: 576px) {
   .carousel-message {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 2.3rem; 
   color:white;
 
@@ -43,7 +43,7 @@
 
 @media (min-width: 768px) {
   .carousel-message {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 2.6rem; 
   color:white;
 }
@@ -51,7 +51,7 @@
 
 @media (min-width: 992px) {
   .carousel-message {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 3rem; 
   color:white;
 
@@ -60,7 +60,7 @@
 
 @media (min-width: 1200px) {
   .carousel-message {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 5rem; 
   color:white;
 }
@@ -228,12 +228,12 @@ hr {
 }
 
 .pagetitle {
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: 'Coustard', serif;
   margin: 1%;
 }
 
 .carousel-product-name {
-  font-family: 'Permanent Marker', sans-serif;
+  font-family: 'Coustard', serif;
   font-size: 3rem; 
 }
 
