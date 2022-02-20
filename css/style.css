@@ -72,7 +72,7 @@ text-decoration: none;
 }
 
 .fab:hover {
-  color:#781e27;
+  color:#ceb0a3;
   text-decoration: none;
 }
 
@@ -90,11 +90,14 @@ text-decoration: none;
   box-shadow: 1px 1px #2a2a2a;
 }
 
-/* blue background on mouse-over */
 .btn:hover {
-  background-color: lightblue;
+  background-color: #ceb0a3;
   color: white;
   font-family: Quicksand, sans-serif;
+}
+
+a:focus, a:hover {
+    color: #ceb0a3;
 }
 
 .navbar-default .navbar-nav > li.dropdown:hover > a, 
@@ -109,7 +112,7 @@ li.dropdown:hover > .dropdown-menu {
 
 .dropdown-menu {
   padding: 2%;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .dropdowntext {
@@ -150,7 +153,7 @@ p {
 
 /* mouse over link */
 a:hover {
-    color: lightblue;
+    color: #ceb0a3;
 }
 
 
@@ -237,8 +240,6 @@ hr {
   font-size: 3rem; 
 }
 
-
-
 #myCarousel {
   background-color: #1D0300;
 /*  padding-right: 2%;
@@ -284,11 +285,7 @@ html {
   min-height: 100%;
 }
 
-
-
 body {
-  /* Margin bottom by footer height */
-/*  margin-bottom: 60px;*/
   background-color: white;
   margin-top: 0px;
 }
