@@ -11,7 +11,7 @@
 
 
 /*CAROUSEL MESSAGES OFF FOR WINTER 21-22*/
-/*.carousel-caption {
+.carousel-caption {
   background-color: #1D0300;
   border-radius: 12px;
 
@@ -64,7 +64,7 @@
   font-size: 5rem; 
   color:white;
 }
-}*/
+}
 
 .fab {
 color:white;
